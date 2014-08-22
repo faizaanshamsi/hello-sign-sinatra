@@ -26,5 +26,5 @@ post '/sign/test' do
 end
 
 post '/sign/callback' do
-  "callback recieved"
+  "Hello API Event Received"
 end
