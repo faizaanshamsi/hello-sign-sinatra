@@ -20,5 +20,5 @@ get '/' do
   erb :index
 end
 
-get '/sign/test' do
+post '/sign/test' do
 end
