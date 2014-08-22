@@ -8,6 +8,7 @@ configure do
 
   HelloSign.configure do |config|
     config.api_key = ENV['api_key']
+    config.client_id = ENV['client_id']
   end
 end
 
@@ -22,4 +23,8 @@ end
 
 post '/sign/test' do
   "Hello API Event Received"
+end
+
+post 'sign/callback' do
+  "callback recieved"
 end
