@@ -2,7 +2,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: <YOUR_APP_NAME>_development
+  database: hello_sign_test_development
   pool: 5
   username:
   password:
@@ -11,7 +11,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: <YOUR_APP_NAME>_test
+  database: hello_sign_test_test
   pool: 5
   username:
   password:
@@ -20,7 +20,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: <YOUR_APP_NAME>_production
+  database: hello_sign_test_production
   pool: 5
   username:
   password:
