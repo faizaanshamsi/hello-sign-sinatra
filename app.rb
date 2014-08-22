@@ -21,4 +21,5 @@ get '/' do
 end
 
 post '/sign/test' do
+  "Hello API Event Received"
 end
